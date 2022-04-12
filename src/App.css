@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fira+Code:wght@600&display=swap');
+
+body, html {
+  font-family: "ABeeZee", sans-serif;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.bigdiv{
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  margin-top: 10%;
+  margin-bottom: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+
+
+
+}
+.big-container{
+  width: 90%;
+
+  
+  border: 2px solid black;
+  padding-bottom: 200px;
+
+
+
+
+}
+
+.inner-container{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+

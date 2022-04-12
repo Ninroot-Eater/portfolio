@@ -1,0 +1,35 @@
+.contact-container{
+    position: absolute;
+    top: 100%;
+    display: flex;
+
+}
+
+.image-container{
+    border: 2px black solid;
+    border-top: 0px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    transition: padding-top 0.5s;
+    margin-right: 20px;
+    padding: 5px;
+
+}
+
+
+
+.image-container:hover{
+    padding-top: 20px;
+}
+
+.image{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    padding: 5px;
+}
+
