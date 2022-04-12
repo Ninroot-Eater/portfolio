@@ -1,6 +1,7 @@
 import "./Skills.css"
 
 import Skill from "./Skill"
+import SectionTitle from "../components/SectionTitle"
 
 let skillList = [
     {
@@ -83,7 +84,7 @@ function Skills(){
 
     return(
         <div>
-            <h2 id="programming-skills" className="skill-title">Programming skills</h2>
+            <SectionTitle hash="programming-skills" title="Programming skills"/>
             {
             skillList.map(
                 

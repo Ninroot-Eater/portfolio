@@ -18,18 +18,19 @@ let contactList = [
 
 function Contacts(){
     return (
-        <div id="contacts" className="contact-container">
-            {
-                contactList.map(c=>(
-                    <a href={c.href} target="_blank">
-                        <div className="image-container">
-                            <img className="image" src={"/images/logos/" + c.image}width="40" height="40"></img>
-                        </div>
-                    </a>
-                ))
-            }
-            
-        </div>
+                <div id="contacts" className="contact-container">
+                {
+                    contactList.map(c=>(
+                        <a href={c.href} target="_blank">
+                            <div className="image-container">
+                                <img className="image" src={"/images/logos/" + c.image}width="40" height="40"></img>
+                            </div>
+                        </a>
+                    ))
+                }
+
+                
+            </div>
     )
 }
 

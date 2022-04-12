@@ -3,3 +3,7 @@
     margin-bottom: 40px;
 
 }
+
+.skill-title:hover{
+    text-decoration: underline;
+}
