@@ -4,6 +4,8 @@ import Skills from "./landingpage/Skills"
 
 import Nav from "./landingpage/Nav"
 import About from './landingpage/About';
+import Tabs from './components/Tabs.js';
+
 
 import {Helmet} from "react-helmet"
 
@@ -18,8 +20,9 @@ function App() {
           <div className="big-container">
             <div className="inner-container">
               <Title/>
-              <About></About>
               <Skills/>
+              <About/>
+              
             </div>
             
           </div>

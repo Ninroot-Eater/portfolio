@@ -1,97 +1,22 @@
 import "./Skills.css"
 
-import Skill from "./Skill"
+
 import SectionTitle from "../components/SectionTitle"
+import Tabs from "../components/Tabs"
 
-let skillList = [
-    {
-        name: "Python",
-        level: "very good",
-    },
-    {
-        name: "Django",
-        level: "very good",
-    },
-    {
-        name: "REST API development",
-        level: "very good",
-
-    },
-    {
-        name: "Microsoft Graph API",
-        level: "good",
-    },
-    {
-        name: "Git",
-        level: "good"
-    },
-    {
-        name: "GraphQL development",
-        level: "good"
-    },
-    {
-        name: "JavaScript",
-        level: "good"
-    },
-    {
-        name: "Flask",
-        level: "good"
-    },
-    {
-        name: "Vue",
-        level: "good"
-    },
-    {
-        name: "PostgreSQL",
-        level: "good"
-    },
-    {
-        name: "Linux (Ubuntu) (good)",
-        level: "good"
-    },
-    {
-        name: "Nginx",
-        level: "good"
-    },
-    {
-        name: "HTML, CSS",
-        level: "good"
-    },
-    {
-        name: "React",
-        level: "learning"
-    },
-    {
-        name: "Go",
-        level: "learning"
-    },
-    {
-        name: "FastAPI",
-        level: "basic understanding"
-    }
-]
-
-function indexMaker(i){
+import skills from "../data" 
 
 
-    if ((i+1).toString().length > 1){
-        return i+1
-    }
-    return "0"+(i+1)
-}
+
 
 function Skills(){
-
+    console.log(skills)
     return(
         <div>
             <SectionTitle hash="programming-skills" title="Programming skills"/>
-            {
-            skillList.map(
+
+            <Tabs titles={skills}/>
                 
-                c=> (<Skill skill={c} i={indexMaker(skillList.indexOf(c))} key={c.name}/>)
-                
-                
-            )}
         </div>
     )
 }

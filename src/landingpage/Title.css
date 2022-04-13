@@ -1,5 +1,6 @@
-
-
+.heading-container{
+    padding-bottom: 50px;
+}
 
 .title-container{
     padding-left: 20px;
@@ -7,8 +8,7 @@
     border: 2px solid black;
     border-top: 0px;
     position: relative;
-    margin-bottom: 150px;
-
+    margin-bottom: 100px;
 }
 
 .name{
@@ -28,3 +28,28 @@
     margin: 0;
     letter-spacing: 0.2px;
 }
+
+.heading-tagline{
+    padding: 0px 10px 20px 10px ;
+
+}
+
+.highlight-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.highlight-column{
+    border: 2px solid black;
+    padding: 2px 20px 2px 20px;
+    margin: 10px 10px 10px 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.highlight-column:hover{
+    border-radius: 10px;
+    transform: scale(0.985);
+
+}
+
+
