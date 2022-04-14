@@ -8,11 +8,11 @@ import {
   Route,
 } from "react-router-dom";
 
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Projects from './projects/Projects';
+import App from "./App"
 import FourOFour from "./errorpage/FourOFour"
-import Schedjuice4 from "./projects/schedjuice4"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,10 +20,9 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App/>}/>
-        <Route path="schedjuice4" element={<Schedjuice4/>}/>
-        <Route path="*"
-        element={<FourOFour/>}
-      />
+        <Route path=":projectName" element={<Projects/>}/>
+        <Route path="*" element={<FourOFour/>}/>
+        
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

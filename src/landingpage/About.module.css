@@ -11,7 +11,6 @@
 
 .about-title{
     border: 2px solid black;
-
     padding: 0px 10px 0px 10px;
     margin: 0px;
     border-bottom: 0px;
@@ -29,6 +28,7 @@
 .about-para{
     padding-left: 10px;
     margin-bottom: 15px;
+    text-align: start;
 
 }
 
@@ -37,6 +37,8 @@
 }
 
 .inner-heading{
+    text-align: start;
+    padding-left: 20px;
     font-size: 20px;
 }
 

@@ -8,15 +8,11 @@ import Footer from './landingpage/Footer';
 
 import {Menu} from "./components/Menu.js"
 
-import {Helmet} from "react-helmet"
 
 function App() {
   return (
     <div>
-      <Helmet>
-        <title>Thiha Swan Htet | Home</title>
-             
-      </Helmet>
+
         <div className="bigdiv">
           <div className="big-container">
             <div className="inner-container">
