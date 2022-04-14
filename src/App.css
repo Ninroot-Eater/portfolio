@@ -69,6 +69,11 @@ a{
   }
 }
 
-
+@media screen and (min-width:1400px) {
+    .bigdiv{
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+}
 
 

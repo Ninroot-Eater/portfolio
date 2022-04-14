@@ -14,9 +14,11 @@ function Title(){
         
             <div className="heading-container">
                 <div className="title-container">
-                <h1 className="name">Thiha Swan Htet</h1>
-                <br/>
-                <p className="tagline">Junior backend developer.</p>
+                <div className="title-wrapper">
+                    <h1 className="name">Thiha Swan Htet</h1>
+                    <br/>
+                    <p className="tagline">Junior backend developer.</p>
+                </div>
                 
                 
                 </div>

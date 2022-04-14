@@ -52,8 +52,14 @@
     border: 2px solid black;
     border-top: 0px;
     position: relative;
+    display: flex;
+    justify-content: center;
+}
 
-
+.title-wrapper{
+    display: inline;
+    text-align: start;
+    padding: 10px;
 }
 
 .name{
