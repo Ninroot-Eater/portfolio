@@ -43,7 +43,7 @@ function Tabs(props){
                         i=>(
                             <div>
                                 <h4>{i.title}</h4>
-                                <p className={TabsStyles.secondary}><i>{i.secondary}</i></p>
+                                <div className={TabsStyles["secondary-container"]}><p className={TabsStyles.secondary}><i>{i.secondary}</i></p></div>
                                 <div className={TabsStyles.content}><p>{i.content}</p></div>
                             </div>
                         )

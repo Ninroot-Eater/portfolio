@@ -1,8 +1,21 @@
 .contact-container{
-    position: absolute;
-    top: 100%;
-    display: flex;
 
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    position: absolute;
+
+
+    
+}
+
+@media (max-width: 700px) {
+    .contact-container{
+        justify-content: center;
+        gap: 10%;
+        margin-left: 20px;
+    }
 }
 
 .image-container{
@@ -12,7 +25,6 @@
     width: 45px;
     height: 45px;
     transition: padding-top 0.5s;
-    margin-right: 20px;
     padding: 5px;
 
 }

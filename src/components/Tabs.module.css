@@ -9,7 +9,6 @@
 }
 
 
-
 .title{
     border: 2px solid black;
     border-left: 0px;
@@ -46,7 +45,10 @@
 
 .content-container{
     border: 2px solid black;
+    text-align: left;
     flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .content{
@@ -81,6 +83,10 @@
 
 .active-page:hover{
     text-decoration: underline;
+}
+
+.secondary-container{
+    text-align: left;
 }
 
 .secondary{

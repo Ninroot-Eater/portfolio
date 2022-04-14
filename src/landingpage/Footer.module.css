@@ -1,0 +1,16 @@
+.container{
+    bottom: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container > p{
+
+    margin: 0px;
+    font-size: 12px;
+}
+
+.container > p > a{
+    text-decoration: underline;
+}

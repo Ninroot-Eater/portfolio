@@ -2,13 +2,58 @@
     padding-bottom: 50px;
 }
 
+.contacts-and-menu{
+
+    margin: 0px 20px 0px 20px;
+}
+
+.menu-button{
+
+    height: 100%;
+    width: 100%;
+
+    border: 2px solid black;
+    border-top: 0px;
+    position: fixed;
+
+    background-color: blue;
+    transition: all 0.5s ease-in-out;
+}
+
+@media (min-width: 700px) {
+    .menu-button{
+        width: auto;
+        display: none;
+        overflow: hidden;
+    }
+}
+
+.menu-is-elon{
+
+    color: blue;
+
+}
+
+.menu-item{
+    text-align: start;
+    list-style: none;
+    border-top: 2px solid black;
+    padding: 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+
+
 .title-container{
-    padding-left: 20px;
+
     font-family: 'Fira Code', monospace;
     border: 2px solid black;
     border-top: 0px;
     position: relative;
-    margin-bottom: 100px;
+
+
 }
 
 .name{
@@ -30,6 +75,7 @@
 }
 
 .heading-tagline{
+    margin-top: 100px;
     padding: 0px 10px 20px 10px ;
 
 }

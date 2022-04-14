@@ -13,35 +13,62 @@ a{
 .bigdiv{
   display: flex;
   justify-content: center;
-  position: relative;
+  min-height: 100vh;
   
+
   margin-top: 10%;
-  margin-bottom: 15%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+
+
+  
   background-color: white;
 
 
 
 }
 .big-container{
-  width: 90%;
 
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 
-
-  
   border: 2px solid black;
-  padding-bottom: 200px;
-
-
+  width: 85%;
+  float: left;
 
 
 }
+
 
 .inner-container{
   margin-left: 10%;
   margin-right: 10%;
 }
+
+@media screen and (max-width: 700px) {
+  .nav-wrapper{
+    visibility: hidden;
+   
+  }
+  .bigdiv{
+    margin: 0%;
+    margin-bottom: 60px;
+  }
+  .big-container{
+    border: 0;
+    padding: 0px;
+    width: auto;
+  }
+  .inner-container{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+
 
 

@@ -2,10 +2,11 @@ import './App.css';
 import Title from "./landingpage/Title"
 import Skills from "./landingpage/Skills"
 
-import Nav from "./landingpage/Nav"
+import { Nav } from "./landingpage/Nav"
 import About from './landingpage/About';
-import Tabs from './components/Tabs.js';
+import Footer from './landingpage/Footer';
 
+import {Menu} from "./components/Menu.js"
 
 import {Helmet} from "react-helmet"
 
@@ -22,15 +23,17 @@ function App() {
               <Title/>
               <Skills/>
               <About/>
-              
+              <Footer/>
             </div>
             
           </div>
+          <div className='big-nav-wrapper'>
           <Nav/>
-         
-              
+          </div>
           
         </div>
+        <Menu/>
+       
 
     </div>
   );

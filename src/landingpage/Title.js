@@ -1,9 +1,15 @@
 import "./Title.css"
 import Contacts from "./Contacts"
 import SectionTitle from "../components/SectionTitle";
+import { Link } from "react-router-dom";
+
+import { useState } from "react";
+
 
 
 function Title(){
+
+
     return(
         
             <div className="heading-container">
@@ -11,6 +17,10 @@ function Title(){
                 <h1 className="name">Thiha Swan Htet</h1>
                 <br/>
                 <p className="tagline">Junior backend developer.</p>
+                
+                
+                </div>
+                <div className="contacts-and-menu">
                 <Contacts/>
                 
                 </div>
@@ -20,11 +30,13 @@ function Title(){
                 </p>
                 <SectionTitle hash="highlights" title="Highlights"/>
                 <div className="highlight-row">
-                    <div className="highlight-column">
-                        <p className="highlight-item">
-                            Project: Schedjuice4
-                        </p>
-                    </div>
+                    <Link to="/schedjuice4">
+                        <div className="highlight-column">
+                            <p className="highlight-item">
+                                Project: Schedjuice4
+                            </p>
+                        </div>
+                    </Link>
                     <div className="highlight-column">
                         <p className="highlight-item">
                             Blog: How to flirt with older women
