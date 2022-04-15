@@ -10,7 +10,7 @@ import {
 
 import reportWebVitals from './reportWebVitals';
 
-import Projects from './projects/Projects';
+import {Projects} from './projects/Projects';
 import App from "./App"
 import FourOFour from "./errorpage/FourOFour"
 

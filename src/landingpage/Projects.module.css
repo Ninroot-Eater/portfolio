@@ -1,0 +1,30 @@
+.wrapper{
+    text-align: start;
+    margin: 40px 0px 40px 0px;
+}
+
+.container{
+
+
+
+
+}
+
+.header{
+    border-bottom: 2px solid black;
+    padding: 10px;
+
+}
+
+.content-n-header{
+
+    min-height: 150px;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+.content-container{
+    padding: 10px;
+
+}

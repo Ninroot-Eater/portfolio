@@ -1,0 +1,27 @@
+
+
+
+.image-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin: 0px 40px 70px 40px;
+
+}
+
+.logo-image{
+    width: auto;
+    height: 45px;
+
+
+}
+
+.logo-text{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: auto;
+    border: 2px solid black;
+    padding: 5px 10px 5px 10px;
+}

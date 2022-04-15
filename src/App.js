@@ -5,6 +5,7 @@ import Skills from "./landingpage/Skills"
 import { Nav } from "./landingpage/Nav"
 import About from './landingpage/About';
 import Footer from './landingpage/Footer';
+import Projects from './landingpage/Projects';
 
 import {Menu} from "./components/Menu.js"
 
@@ -18,6 +19,7 @@ function App() {
             <div className="inner-container">
               <Title/>
               <Skills/>
+              <Projects/>
               <About/>
               <Footer/>
             </div>
