@@ -8,9 +8,23 @@ import Footer from './landingpage/Footer';
 import Projects from './landingpage/Projects';
 
 import {Menu} from "./components/Menu.js"
+import {useLocation} from "react-router-dom"
+import {useEffect} from "react"
 
 
 function App() {
+
+  let l = useLocation();
+  useEffect(()=>{
+      if(l.state){
+        if(l.state.scroll !==undefined){
+          console.log(l.state.scroll)
+          window.scrollTo(0,l.state.scroll)
+        }
+      }
+  }
+  )
+
   return (
     <div>
 

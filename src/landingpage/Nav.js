@@ -14,6 +14,10 @@ let navItems = [
         href: "#programming-skills"
     },
     {
+        text: "Projects",
+        href: "#projects"
+    },
+    {
         text: "About",
         href: "#about-me"
     }
